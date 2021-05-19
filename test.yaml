@@ -1,0 +1,9 @@
+---
+ - name: Playbook to install NGINX
+   hosts: webservers
+   become: true
+
+   roles:
+     - role: nginxconfig    
+
+
